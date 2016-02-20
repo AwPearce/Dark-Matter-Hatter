@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*      
+        Author: Anthony Pearce
+        Date Created: 2/20/2016
+        
+
+    **** Dark Matter Hatter Color Pallet ****
+    
+    dark-primary-color    { background: #455A64;R: 69 G: 90 B: 100 }
+    default-primary-color { background: #607D8B;R: 96 G: 125 B: 139 }
+    light-primary-color   { background: #CFD8DC;R: 207 G: 216 B: 220 }
+    text-primary-color    { color: #FFFFFF;R: 255 G: 255 B: 255 }
+    accent-color          { background: #FF5722;R: 255 G: 87 B: 34 }
+    primary-text-color    { color: #212121;R: 33 G: 33 B: 33 }
+    secondary-text-color  { color: #727272;R: 114 G: 114 B: 114 }
+    divider-color         { border-color: #B6B6B6;R: 182 G: 182 B: 182 }
+
+*/
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+/* end of reset, start of layout */
+
+h1 {
+    font-size: 5em;
+    text-shadow: 2px 2px 1px black;
+    letter-spacing: 1px;
+    font-weight: 900;
+}    
