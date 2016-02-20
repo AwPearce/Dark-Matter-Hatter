@@ -61,10 +61,59 @@ table {
         border-spacing: 0;
 }
 /* end of reset, start of layout */
-
+#wrapper {
+    min-height: 100%;
+}
+.mainNav ul {
+    float: left;
+    width: 12.1%;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.mainNav li{
+    font-size: 1.15em;
+    margin-top: 0px;
+}
+.mainNav a{
+    display: block;
+}
+/* begining of styles */
+#wrapper {
+    background: rgba(96,125,139,1);
+}
 h1 {
     font-size: 5em;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px rgba(255,87,34,.6);
     letter-spacing: 1px;
     font-weight: 900;
+    color: rgba(33,33,33,1);
+}
+/*links*/
+.mainNav a:link {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px 25px 25px 5px;
+    color: rgba(33,33,33,1);
+    font-size: 1.15em;
+    text-align: center;
+    box-shadow: 2px 3px 2px rgba(0,0,0,.6) inset, 1px 1px 1px white;
+    background: rgba(212,228,239,1);
+    font-weight: 700;
+    -webkit-transition: background-color .1s linear;
+    -moz-transition: background-color .1s linear;
+    -o-transition-property: background-color .1s linear;
+    transition-property: background-color .1s linear;
+    margin-top: 3px;
+    text-decoration: none;                                                      }
+.mainNav a:visited {
+    color: rgba(33,33,33,1);
+}
+.mainNav a:hover {
+    color: rgba(255,87,34,1);
+    background: rgba(69,90,100,1);
+    box-shadow: 1px 2px 1px white inset, 1px 1px 1px rgba(255,87,34,1);
 }    
+.mainNav a:active {
+    background: ;
+}
+/* Media queries for responsive web design */
